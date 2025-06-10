@@ -1,23 +1,60 @@
-# Employee-Retention-Prediction
-This project aims to analyze employee data and build a machine learning model to predict employee churn (i.e., whether an employee is likely to leave the company). The objective is to assist HR departments in identifying at-risk employees and taking proactive steps to improve retention.
-The project is structured into two main parts:
 
-Exploratory Data Analysis (EDA):
+# 🧠 Employee Retention Prediction
 
-Analyzes patterns and correlations in employee data.
+A machine learning project that predicts whether an employee will stay or leave a company, built using classification algorithms and deployed with Streamlit. The goal is to assist HR teams in identifying attrition risks early based on employee engagement and performance data.
 
-Visualizes features such as job satisfaction, evaluation scores, and work-life balance.
+---
 
-Identifies key factors contributing to employee attrition.
+## 🎯 Objective
 
-Model Training:
+To design and deploy a predictive system that helps businesses understand key factors behind employee churn and make data-driven retention strategies.
 
-Preprocesses data and trains multiple machine learning models.
+---
 
-Compares model performance metrics (accuracy, precision, recall, F1-score).
+## 🚀 Project Highlights
 
-Deploys the best-performing model for churn prediction.
+- 🔍 **EDA** to explore patterns between satisfaction, workload, promotions, and attrition.
+- 🧪 **Model Training** with Random Forest and XGBoost for better classification.
+- 📈 Achieved high accuracy using optimized hyperparameters.
+- 🌐 **Deployed using Streamlit** with an intuitive user interface for real-time predictions.
+
+---
+
+## 🧰 Tools & Libraries
+
+- Python (Pandas, NumPy, Scikit-learn)
+- XGBoost, RandomForestClassifier
+- Streamlit for Web UI
+- Jupyter Notebook for EDA
+- Pickle for model serialization
+
+---
+
+## 📊 Features Used
+
+- Satisfaction Level  
+- Last Evaluation  
+- Number of Projects  
+- Average Monthly Hours  
+- Time Spent at Company  
+- Work Accident  
+- Promotion in Last 5 Years  
+- Salary Level (One-hot encoded)
 
 
+---
 
+## 📈 Model Performance
 
+- **Model**: XGBoost Classifier
+- **Key Insight**: Satisfaction level and lack of promotions were major predictors of attrition.
+
+---
+
+## 🧠 What I Learned
+
+- Built a complete ML pipeline from preprocessing to deployment.
+- Developed a business-focused UI using Streamlit for non-technical users.
+- Improved understanding of classification problems in real-world HR scenarios.
+
+---
